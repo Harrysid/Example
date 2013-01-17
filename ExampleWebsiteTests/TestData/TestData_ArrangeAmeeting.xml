@@ -1,0 +1,138 @@
+<testsuite>
+  <!--<ArrangeAmeeting_Success>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+	  <text_date>21/02/2012</text_date>
+	  <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Arrange a meeting request submitted</assertion>
+  </ArrangeAmeeting_Success>-->
+  <ArrangeAmeeting_Success>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice>true</radio_myOffice>
+    <select_office>TEST Office</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Arrange a meeting request submitted</assertion>
+  </ArrangeAmeeting_Success>
+  <ArrangeAmeeting_NoDate>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date></text_date>
+    <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select a date</assertion>
+  </ArrangeAmeeting_NoDate>
+  <ArrangeAmeeting_NoOffice>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice></radio_myOffice>
+    <select_office></select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select place for the meeting</assertion>
+  </ArrangeAmeeting_NoOffice>
+  <ArrangeAmeeting_NoName>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name></text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your name.</assertion>
+  </ArrangeAmeeting_NoName>
+  <ArrangeAmeeting_NoTelephone>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode></text_areaCode>
+    <text_telephoneNumber></text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your telephone number.</assertion>
+  </ArrangeAmeeting_NoTelephone>
+  <ArrangeAmeeting_NoEmail>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email></text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your email.</assertion>
+  </ArrangeAmeeting_NoEmail>
+  <ArrangeAmeeting_NoLead>
+    <page_name>Arrange a meeting</page_name>
+    <URL>/infopages/arrange-a-meeting.aspx</URL>
+    <text_date>21/02/2012</text_date>
+    <radio_myOffice>false</radio_myOffice>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource></select_leadSource>
+    <assertion>You must indicate where you heard about us.</assertion>
+  </ArrangeAmeeting_NoLead>
+ </testsuite>

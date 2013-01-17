@@ -1,0 +1,122 @@
+<testsuite>
+  <DownloadBrochure_Success>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Thank you for your brochure request. We will be in touch shortly.</assertion>
+  </DownloadBrochure_Success>
+<DownloadBrochure_NoOffice>
+   <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office></select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must indicate which of our offices you'd like to deal with.</assertion>
+  </DownloadBrochure_NoOffice>
+<DownloadBrochure_NoName>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name></text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your name.</assertion>
+  </DownloadBrochure_NoName>
+<DownloadBrochure_NoTelephone>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode></text_areaCode>
+    <text_telephoneNumber></text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your telephone number.</assertion>
+  </DownloadBrochure_NoTelephone>
+<DownloadBrochure_NoEmail>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email></text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your email.</assertion>
+  </DownloadBrochure_NoEmail>
+<DownloadBrochure_NoDateToCall>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select the best day for us to call you</assertion>
+  </DownloadBrochure_NoDateToCall>
+<DownloadBrochure_NoTimeToCall>
+    <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select the best time for us to call you</assertion>
+  </DownloadBrochure_NoTimeToCall>
+<DownloadBrochure_NoLead>
+   <page_name>Download our Brochure</page_name>
+    <URL>/infopages/download-our-brochure.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource></select_leadSource>
+    <assertion>You must indicate where you heard about us.</assertion>
+  </DownloadBrochure_NoLead>
+  </testsuite>

@@ -1,0 +1,56 @@
+<testsuite>
+  <SendEmail_Success>
+    <page_name>Send us an Email</page_name>
+    <URL>/infopages/request-an-email.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+   <text_email>TEST@TESTsoftware.com</text_email>
+   <textArea_enquiry>Test Info</textArea_enquiry>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Email request submitted</assertion>
+  </SendEmail_Success>
+<SendEmail_NoOffice>
+    <page_name>Send us an Email</page_name>
+    <URL>/infopages/request-an-email.aspx</URL>
+    <select_office></select_office>
+    <text_name>Test Name</text_name>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_enquiry>Test Info</textArea_enquiry>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must indicate which of our offices you'd like to deal with.</assertion>
+  </SendEmail_NoOffice>
+<SendEmail_NoName>
+    <page_name>Send us an Email</page_name>
+    <URL>/infopages/request-an-email.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name></text_name>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <textArea_enquiry>Test Info</textArea_enquiry>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your name.</assertion>
+  </SendEmail_NoName>
+<SendEmail_NoEmail>
+    <page_name>Send us an Email</page_name>
+    <URL>/infopages/request-an-email.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_email></text_email>
+    <textArea_enquiry>Test Info</textArea_enquiry>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your email.</assertion>
+  </SendEmail_NoEmail>
+<SendEmail_NoLead><page_name>Send us an Email</page_name>
+    <URL>/infopages/request-an-email.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+     <text_email>TEST@TESTsoftware.com</text_email>
+     <textArea_enquiry>Test Info</textArea_enquiry>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource></select_leadSource>
+    <assertion>You must indicate where you heard about us.</assertion>
+  </SendEmail_NoLead>
+ </testsuite>

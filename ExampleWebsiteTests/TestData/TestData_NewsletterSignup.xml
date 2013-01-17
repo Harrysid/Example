@@ -1,0 +1,84 @@
+<testsuite>
+<NewsletterSignup_Success><page_name>Newsletter Sign Up</page_name>
+    <URL>/infopages/request-a-newsletter.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>7:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Newsletter request submitted</assertion>
+  </NewsletterSignup_Success>
+<NewsletterSignup_NoOffice><page_name>Newsletter Sign Up</page_name>
+    <URL>/infopages/request-a-newsletter.aspx</URL>
+    <select_office></select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>7:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must indicate which of our offices you'd like to deal with.</assertion>
+  </NewsletterSignup_NoOffice>
+<NewsletterSignup_NoName><page_name>Newsletter Sign Up</page_name>
+    <URL>/infopages/request-a-newsletter.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name></text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>7:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your name.</assertion>
+  </NewsletterSignup_NoName>
+<NewsletterSignup_NoEmail>
+    <page_name>Newsletter Sign Up</page_name>
+    <URL>/infopages/request-a-newsletter.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email></text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>7:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your email.</assertion>
+  </NewsletterSignup_NoEmail>
+<NewsletterSignup_NoLead>
+  <page_name>Newsletter Sign Up</page_name>
+    <URL>/infopages/request-a-newsletter.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>7:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource></select_leadSource>
+    <assertion>You must indicate where you heard about us.</assertion>
+  </NewsletterSignup_NoLead>
+ </testsuite>

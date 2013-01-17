@@ -1,0 +1,138 @@
+<testsuite>
+  <ArrangeAcall_Success>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Wednesday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>Arrange a call request submitted</assertion>
+  </ArrangeAcall_Success>
+<ArrangeAcall_NoOffice>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office></select_office>
+    <text_name>Test Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must indicate which of our offices you'd like to deal with.</assertion>
+  </ArrangeAcall_NoOffice>
+<ArrangeAcall_NoName>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name></text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your name.</assertion>
+  </ArrangeAcall_NoName>
+<ArrangeAcall_NoTelephone>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode></text_areaCode>
+    <text_telephoneNumber></text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your telephone number.</assertion>
+  </ArrangeAcall_NoTelephone>
+<ArrangeAcall_NoEmail>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email></text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must enter your email.</assertion>
+  </ArrangeAcall_NoEmail>
+<ArrangeAcall_NoDateToCall>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall></select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select the best day for us to call you</assertion>
+  </ArrangeAcall_NoDateToCall>
+<ArrangeAcall_NoTimeToCall>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall></select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource>Google</select_leadSource>
+    <assertion>You must select the best time for us to call you</assertion>
+  </ArrangeAcall_NoTimeToCall>
+<ArrangeAcall_NoLead>
+    <page_name>Arrange a call</page_name>
+    <URL>/infopages/arrange-a-call.aspx</URL>
+    <select_office>Exeter</select_office>
+    <text_name>TEST Name</text_name>
+    <text_position>Test Position</text_position>
+    <text_organisation>Test Organisation</text_organisation>
+    <text_areaCode>01392</text_areaCode>
+    <text_telephoneNumber>453351</text_telephoneNumber>
+    <text_email>TEST@TESTsoftware.com</text_email>
+    <select_dateToCall>Monday</select_dateToCall>
+    <select_timeToCall>17:00</select_timeToCall>
+    <textArea_additionalInformation>Test Info</textArea_additionalInformation>
+    <checkbox_emailOptIn>true</checkbox_emailOptIn>
+    <select_leadSource></select_leadSource>
+    <assertion>You must indicate where you heard about us.</assertion>
+  </ArrangeAcall_NoLead>
+ </testsuite>
