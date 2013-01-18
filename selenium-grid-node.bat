@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone.jar -role webdriver -port 5559 -browser "browserName=internet explorer,version=9,maxInstances=1,platform=WINDOWS" -browser browserName=firefox,maxInstances=1,platform=WINDOWS -maxSession=1 -Dwebdriver.ie.driver="C:\Selenium Grid\IEDriverServer.exe" -hub http://PC097:4444/grid/register
